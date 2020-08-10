@@ -20,7 +20,7 @@ class Dog extends Animal {
 	Dog d;
 	if(a instanceof Dog) {
 	    d = (Dog) a;
-	    System.out.println("\nDowncasted");
+	    System.out.println("\n");
 	    return d;
 	} 
 	return null;
