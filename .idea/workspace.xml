@@ -17,12 +17,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56dec964-10ca-4cbd-ae64-6ab8456d7890" name="Default Changelist" comment="First Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProgramming1/javaprogramming1/practice/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProgramming1/javaprogramming1/practice/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProgramming1/javaprogramming1/practice/Practice1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProgramming1/javaprogramming1/practice/Practice1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javaprogramming1/practice/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javaprogramming1/practice/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javaprogramming1/practice/Practice1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/javaprogramming1/practice/Practice1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaprogramming1/practice/Practice1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,7 +56,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Practice1">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -67,8 +81,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Practice1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaprogramming1.practice.Practice1" />
+      <module name="JavaProgramming1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaprogramming1.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Practice1" />
         <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
@@ -107,7 +135,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597095253250</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="First Commit">
+      <created>1597095582713</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597095582713</updated>
+    </task>
+    <task id="LOCAL-00005" summary="First Commit">
+      <created>1597095685975</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597095685975</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,22 +196,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="150" y="64" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1596787645267" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1597095257792">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1597148516674">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597095257792" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1597095257792">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597148516674" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1597148516674">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597095257792" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1597095257792">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597148516674" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1597148516674">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597095257792" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1597095257792">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597148516674" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1597148516674">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597095257792" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597148516674" />
     <state x="469" y="114" key="RollbackChangesDialog" timestamp="1596787647906">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

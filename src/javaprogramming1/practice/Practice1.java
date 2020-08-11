@@ -1,41 +1,23 @@
 package javaprogramming1.practice;
 
- class Animal {
-    public int a = 10;
-    public void display() {
-	System.out.println("\n In animal class.."); 
-    }
-}
-
-class Dog extends Animal {
-    public int a = 15;
-    @Override
-    public void display() {
-	System.out.println("\nIn dog class..");
-    }
-    public void displayUnique() {
-	System.out.println("In unique display method of dog class..");
-    }
-    public static Dog downCast(Animal a) {
-	Dog d;
-	if(a instanceof Dog) {
-	    d = (Dog) a;
-	    System.out.println("\nDowncasted");
-	    return d;
-	} 
-	return null;
-    }
-}
 public class Practice1 {
     public static void main(String args[]) {
-	Animal animal = new Dog();
-	animal.display();
-	System.out.println("\n"+animal.a);
-	//animal.displayUnique(); // will cause error since downcasting is restricted with only overriden method
-	Dog d = Dog.downCast(animal);
-	System.out.println("\n"+d.a);
-	d.display();
-	d.displayUnique();
-	
+        //Data types
+        //numerical data type
+        int byte_var = 10; //1byte
+        short short_var = 32000;//2byte
+        int int_var = 8;//4byte
+        long long_var = 420000000;//8byte
+
+        //floating data type
+        float float_var = 32.4f;//4byte
+        double double_var = 42.5;//8byte
+        //bitwise
+        System.out.println("AND :- " + (byte_var & int_var)); // 8
+        System.out.println("OR :- " + (byte_var | int_var)); // 2
+        System.out.println("Left shift :- " + (byte_var >> 1)); // 5
+        System.out.println("Right shift :- " + (byte_var << 1)); // 4
+
+
     }
 }
