@@ -2,7 +2,7 @@ package javaprogramming1.practice;
 
 public class Practice1 {
     public static void main(String args[]) {
-        //Data types
+        //Data typesLq
         //numerical data type
         byte byte_var = 10; //1byte
         short short_var = 32000;//2byte
