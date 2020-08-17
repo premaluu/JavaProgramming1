@@ -18,8 +18,7 @@
   <component name="ChangeListManager">
     <list default="true" id="56dec964-10ca-4cbd-ae64-6ab8456d7890" name="Default Changelist" comment="First Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaProgramming1/javaprogramming1/practice/Practice1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProgramming1/javaprogramming1/practice/Practice1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javaprogramming1/practice/Practice1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaprogramming1/practice/Practice1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProgramming1/META-INF/JavaProgramming1.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597149902544</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="First Commit">
+      <created>1597168546697</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597168546697</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,11 +189,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="First Commit" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="520" y="236" key="#Notifications" timestamp="1597672158525">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="520" y="236" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1597672158525" />
     <state x="361" y="53" key="#Plugins" timestamp="1597153501095">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -208,22 +218,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="150" y="64" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1596787645267" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1597153157040">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1597170424357">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597153157040" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1597153157040">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597170424357" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1597170424357">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597153157040" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1597153157040">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597170424357" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1597170424356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597153157040" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1597153157040">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597170424356" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1597170424357">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597153157040" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597170424357" />
     <state x="469" y="114" key="RollbackChangesDialog" timestamp="1596787647906">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
