@@ -39,9 +39,7 @@ public class Practice1 {
         //logical operators
         System.out.println("Logical AND :- " + ((byte_var > int_var) && (byte_var < int_var)));
         System.out.println("Logical OR :- " + ((byte_var > int_var) || (byte_var < int_var)));
-        System.out.println("logical NOT :- " + !((byte_var > int_var || (byte_var < int_var))));
-
-
+        System.out.println("logica NOT :- " + !((byte_var > int_var || (byte_var < int_var))));
 
     }
 }
