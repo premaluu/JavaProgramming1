@@ -1,7 +1,7 @@
 package javaprogramming1.practice;
 
 public class Practice1 {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         //Data typesLq
         //numerical data type
         byte byte_var = 10; //1byte
