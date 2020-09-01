@@ -1,4 +1,5 @@
 package javaprogramming1.practice;
+
 public class Practice1 {
     public static void main(String[] args) {
         //Data typesLq
@@ -41,12 +42,12 @@ public class Practice1 {
         System.out.println("logical NOT :- " + !((byte_var > int_var || (byte_var < int_var))));
 
         //Conditional Statement
-        if(byte_var > short_var) {
+        if (byte_var > short_var) {
             System.out.println("Byte is greater");
-        } else if(short_var > byte_var) {
+        } else if (short_var > byte_var) {
             System.out.println("Short is greater");
         } else {
-            if(int_var > byte_var && int_var > short_var) {
+            if (int_var > byte_var && int_var > short_var) {
                 System.out.println("Integer is greater than all");
             } else {
                 System.out.println("Short is greater then all");
@@ -54,7 +55,7 @@ public class Practice1 {
         }
         //Switch statement
         int choice = 4;
-        switch(choice) {
+        switch (choice) {
             case 1:
                 System.out.println("Byte var is selected ");
                 break;
@@ -74,7 +75,7 @@ public class Practice1 {
 
         //looping
         int i = 0;
-        while(i < 5) {
+        while (i < 5) {
             System.out.println(i);
             i++;
         }
@@ -82,19 +83,19 @@ public class Practice1 {
         do {
             System.out.println(i);
             i++;
-        } while(i < 5);
+        } while (i < 5);
 
-        for(i = 0 ; i < 5 ; i++) {
+        for (i = 0; i < 5; i++) {
             System.out.println(i);
         }
-        int arr[] = {10, 20,30, 40, 50, 60, 70, 80, 90, 100};
-        for(int ele : arr) {
+        int[] arr = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+        for (int ele : arr) {
             System.out.println(ele);
         }
         outerLoop:
-        for(i = 0 ; i < 5 ; i++) {
-            for(int j = 0 ; j < 5 ; j++) {
-                if(i >= 1) {
+        for (i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
+                if (i >= 1) {
                     break outerLoop;
                 } else {
                     System.out.println(j);
