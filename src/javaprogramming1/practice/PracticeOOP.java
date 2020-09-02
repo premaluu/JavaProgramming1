@@ -36,9 +36,9 @@ public class PracticeOOP {
         System.out.println("Speed :- "+new Bike(50).getSpeed()); //annonymous object
         Bike bike = new Bike();
         bike.setSpeed(60);
-        System.out.println("Speed :- "+bike.getSpeed());
+        System.out.println("Sp :- "+bike.getSpeed());
         System.out.println("Company :- "+bike.getCompany());
-        System.out.println("Speed :- "+new Bike(bike).getSpeed());
+        System.out.println("Spee :- "+new Bike(bike).getSpeed());
         Bike.setCompany("Suzuki");
         System.out.println("Company :- "+bike.getCompany());
         System.out.println("Speed :- "+bike.getSpeed());
