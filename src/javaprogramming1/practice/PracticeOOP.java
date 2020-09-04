@@ -1,45 +1,54 @@
 package javaprogramming1.practice;
 
+//class
 class Bike {
 	int speed;
 	static String company;
-	
-	//constructor
+
+	// constructor
 	public Bike() {
-		this.speed = 50;
+		speed = 10;
 		company = "Honda";
 	}
-	
+
 	public Bike(int speed) {
-		this.speed = 50;
-		company = "Honda";
+		this.speed = speed;
 	}
-	
+
 	public Bike(Bike bike) {
 		this.speed = bike.speed;
 	}
-	
-	//methods
+
+	// methods
 	public int getSpeed() {
 		return this.speed;
 	}
-	
+
 	public void setSpeed(int speed) {
 		this.speed = speed;
 	}
-	
+
 	public String getCompany() {
-		return company;
+		return Bike.company;
 	}
-	
-	//static methods
+
+	// static methods
 	public static void setCompany(String company1) {
 		company = company1;
 	}
 }
+
 public class PracticeOOP {
 	public static void main(String args[]) {
-		System.out.println("Speed :- "+new Bike(50).getSpeed());
-		System.out.println("Company :- "+Bike.company);
+		// Bike bike = new Bike();
+		System.out.println("Speed :- " + new Bike(50).getSpeed()); // annonymous object
+		Bike bike = new Bike();
+		bike.setSpeed(60);
+		System.out.println("Speed :- " + bike.getSpeed());
+		System.out.println("Company :- " + bike.getCompany());
+		System.out.println("Speed :- " + new Bike(bike).getSpeed());
+		Bike.setCompany("Suzuki");
+		System.out.println("Company :- " + bike.getCompany());
+		System.out.println("Speed :- " + bike.getSpeed());
 	}
 }
