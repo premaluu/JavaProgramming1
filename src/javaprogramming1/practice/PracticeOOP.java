@@ -3,52 +3,45 @@ package javaprogramming1.practice;
 //class
 class Bike {
 	int speed;
-	static String company;
+	static String company = "Honda";
 
-	// constructor
+	//constructor
 	public Bike() {
-		speed = 10;
+		this.speed = 50;
 		company = "Honda";
 	}
 
 	public Bike(int speed) {
 		this.speed = speed;
 	}
-
 	public Bike(Bike bike) {
 		this.speed = bike.speed;
 	}
 
-	// methods
+	//methods
 	public int getSpeed() {
 		return this.speed;
+	}
+
+	public String getCompany() {
+		return company;
 	}
 
 	public void setSpeed(int speed) {
 		this.speed = speed;
 	}
 
-	public String getCompany() {
-		return Bike.company;
-	}
-
-	// static methods
+	//static methods
 	public static void setCompany(String company1) {
 		company = company1;
 	}
 }
-
 public class PracticeOOP {
 	public static void main(String args[]) {
-		// Bike bike = new Bike();
-		System.out.println("Speed :- " + new Bike(50).getSpeed()); // annonymous object
+		System.out.println("Speed :- "+new Bike(50).getSpeed());
+		System.out.println("Speed :- "+new Bike(60).getSpeed());
 		Bike bike = new Bike();
-		bike.setSpeed(60);
-		System.out.println("Speed :- " + bike.getSpeed());
-		System.out.println("Company :- " + bike.getCompany());
-		System.out.println("Speed :- " + new Bike(bike).getSpeed());
 		Bike.setCompany("Suzuki");
-		System.out.println("Company :- " + bike.getCompany());
-		System.out.println("Speed :- " + bike.getSpeed());
+		System.out.println("Company :- "+Bike.company);
 	}
 }
