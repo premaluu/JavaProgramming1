@@ -255,7 +255,7 @@ public class PracticeOOP {
 		SportsBike newSportsBike = new SportsBike(sportsBike);
 		System.out.println("Speed :- " + sportsBike.getSpeed());
 		System.out.println("Hight Speed :- " + sportsBike.getMaxSpeed());
-		System.out.println("Manufacturing year :- " + sportsBike.getManufacturingYear());
+		System.out.println("Manuacturing year :- " + sportsBike.getManufacturingYear());
 		System.out.println("Company :- " + sportsBike.getCompany());
 		System.out.println();
 		Hayabusa hayabusa = new Hayabusa(150, 450, 2010, "White", new Engine(5000, 700));
